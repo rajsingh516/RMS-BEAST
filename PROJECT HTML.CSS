@@ -1,0 +1,533 @@
+#navbar{
+    border:2px solid rgb(71, 49, 3);
+    background-color:rgb(44, 40, 40);
+    text-align:center;
+    box-shadow:3px 3px 5px #000000;
+}
+#navbar:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#health{
+    height:40px;
+    width:50px;
+    padding-right:15px;
+    padding-left:15px;
+    font-weight: bolder;
+    color:#07c707;
+    font-size:30px;
+    box-shadow:5px 5px 15px rgb(6, 245, 6);
+}
+#location{
+    display:inline-block;
+    margin:0px;
+    padding-left:20px;
+    padding-right:30px;
+    padding-top:10px;
+    color:#e6e3e3;
+    font-size:15px;
+    position:relative;
+    transform:translate(10px,10px);
+}
+#location:hover{
+    box-shadow:6px 6px 10px #e7caca;
+}
+#mylocation{
+    font-size:20px;
+    font-weight:bold;
+}
+#google{
+    padding-left:15px;
+    padding-right:15px;
+    margin:15px;
+    margin-top:10px;
+    margin-bottom:20px;
+    height:30px;
+    width:400px;
+    border:2px solid #000000;
+    color:greenyellow;
+    font-weight: bold;
+    background-color:#ffffff;
+    box-shadow:3px 3px 6px #000000;
+}
+#google:hover{
+    box-shadow:6px 6px 8px #e7caca;
+}
+#language{
+    margin-left:30px;
+    margin-right:20px;
+    padding-left:20px;
+    color:#ffffff;
+    background-color:rgb(44, 40, 40);
+    font-weight:bold;
+    position:relative;
+    transform:translate(-18px,1px);
+}
+#language:hover{
+    box-shadow:6px 6px 12px #e7caca;
+}
+#hello{
+    color:#e6e3e3;
+    display:inline-block;
+    padding-left:20px;
+    padding-right:10px;
+    position:relative;
+    transform:translate(-20px,8px);
+}
+#hello:hover{
+    box-shadow:6px 6px 12px #e7caca;
+}
+#account{
+    font-weight: bold;
+}
+#returns{
+    text-align:center;
+    color:#e6e3e3;
+    display:inline-block;
+    padding-left:20px;
+    padding-right:10px;
+    position:relative;
+    transform:translate(-3px,8px);
+}
+#returns:hover{
+        box-shadow:6px 6px 12px #e7caca;;
+}
+#orders{
+    text-align:center;
+    font-weight:bold;
+}
+#all{
+    height:190px;
+    width:120px;
+    color:#000000;
+    border:1px solid #000000;
+    background-color: rgb(156,149,149);
+    padding-bottom:5px;
+    padding-top:5px;
+    margin-bottom:10px;
+    display:inline-block;
+    box-shadow:3px 3px 6px #000000;
+    margin-left:40px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+#all:hover{
+    box-shadow:6px 6px 12px #000000;
+    transform:skew(0.4deg);
+}
+#option1{
+    font-size:20px;
+    box-shadow:3px 3px 6px rgb(0,0,0);
+}
+#option1:hover{
+    box-shadow:6px 6px 12px rgb(0,0,0);
+}
+h3{
+    color:#e6e3e3;
+}
+#hospitals1{
+    border:2px solid rgb(0,0,0);
+    box-shadow: 3px 3px 5px rgb(0,0,0);
+    height:165px;
+    width:326px;
+    position:absolute;
+    transform:translate(131px,-185px);
+    margin-left:110px;
+}
+.name1{
+    height:50px;
+    width:330px;
+    text-align: center;
+    background-color: rgb(44, 40, 40);
+    position:absolute;
+    transform: translate(131px,-209px);
+    box-shadow: 3px 3px 10px rgb(0,0,0);
+    margin-left:110px;
+}
+#hospitals2{
+    border:2px solid rgb(0,0,0);
+    box-shadow: 3px 3px 5px rgb(0,0,0);
+    height:165px;
+    width:326px;
+    position:absolute;
+    transform:translate(463px,-185px);
+    margin-left:140px;
+}
+.name2{
+    height:50px;
+    width:330px;
+    text-align: center;
+    background-color: rgb(44, 40, 40);
+    position:absolute;
+    transform: translate(462px,-209px);
+    box-shadow: 3px 3px 10px rgb(0,0,0);
+    margin-left:140px;
+}
+#hospitals3{
+    border:2px solid rgb(0,0,0);
+    box-shadow: 3px 3px 5px rgb(0,0,0);
+    height:165px;
+    width:326px;
+    position:absolute;
+    transform:translate(797px,-184px);
+    margin-left:170px;
+}
+.name3{
+    height:50px;
+    width:330px;
+    text-align: center;
+    background-color: rgb(44, 40, 40);
+    position:absolute;
+    transform: translate(797px,-209px);
+    box-shadow: 3px 3px 10px rgb(0,0,0);
+    margin-left:170px;
+}
+.name1:hover{
+    box-shadow:6px 6px 10px rgb(0,0,0);
+}
+.name2:hover{
+    box-shadow:6px 6px 10px rgb(0,0,0);
+}
+.name3:hover{
+    box-shadow:6px 6px 10px rgb(0,0,0);
+}
+#hospitals1:hover{
+    box-shadow:6px 6px 12px rgb(0,0,0);
+}
+#hospitals2:hover{
+    box-shadow:6px 6px 12px rgb(0,0,0);
+}
+#hospitals3:hover{
+    box-shadow:6px 6px 12px rgb(0,0,0);
+}
+#inline{
+    width:100%;
+    height:300px;
+}
+.appnt{
+    width:490px;
+    height:300px;
+    position:relative;
+    transform:translate(-7px,-6px);
+    margin: 0 auto;
+    box-shadow:6px 6px 10px rgb(0,0,0);
+    margin-left:10px;
+}
+.appnt:hover{
+    box-shadow:6px 6px 18px #000000;
+}
+#heading1{
+    font-family: Verdana;
+    width:488px;
+    text-align:center;
+    position:relative;
+    transform:translate(3px,-328px);
+    background-color: rgb(44, 40, 40);
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#heading1:hover{
+    box-shadow:8px 8px 15px #000000;
+}
+.meet{
+    width:490px;
+    height:300px;
+    position:relative;
+    transform:translate(500px,-370px);
+    box-shadow:3px 3px 8px rgb(0,0,0);
+    margin-left:10px;
+}
+.meet:hover{
+    box-shadow:6px 6px 12px rgb(0,0,0);
+}
+#heading2{
+    font-family:Verdana;
+    text-align:center;
+    width:488px;
+    position:relative;
+    transform:translate(511px,-693px);
+    background-color: rgb(44, 40, 40);
+    box-shadow:6px 6px 10px rgb(0,0,0);
+}
+#heading2:hover{
+    box-shadow:8px 8px 15px #000000;
+}
+.insurance{
+    height:300px;
+    width:310px;
+    position:absolute;
+    transform:translate(1008px,-733px);
+    box-shadow:6px 6px 10px rgb(0,0,0);
+    margin-left:10px;
+}
+.insurance:hover{
+    box-shadow:8px 8px 12px #000000;
+}
+#heading3{
+    font-family:Verdana;
+    text-align: center;
+    width:308px;
+    position:relative;
+    transform:translate(1020px,-734px);
+    background-color: rgb(44, 40, 40);
+    box-shadow:6px 6px 10px rgb(0,0,0);
+}
+#heading3:hover{
+    box-shadow:8px 8px 15px #000000;
+}
+.healthco{
+    border:2px solid black;
+    height:120px;
+    width:120px;
+    box-shadow:3px 3px 5px #000000;
+    transform:translate(120px,-62px);
+}
+.healthco:hover{
+    box-shadow:5px 5px 8px #000000;
+}
+.medical{
+    border:2px solid black;
+    height:120px;
+    width:120px;
+    box-shadow:3px 3px 5px #000000;
+    transform:translate(122px,-62px);
+}
+.medical:hover{
+    box-shadow:5px 5px 8px #000000;
+}
+.medi{
+    border:2px solid black;
+    height:120px;
+    width:120px;
+    box-shadow:3px 3px 5px #a09090;
+    transform:translate(-1px,65px);
+}
+.medi:hover{
+    box-shadow:5px 5px 8px #000000;
+}
+.med{
+    border:2px solid black;
+    height:120px;
+    width:120px;
+    box-shadow:3px 3px 5px #a09090;
+    transform:translate(-251px,64px);
+}
+.med:hover{
+    box-shadow:5px 5px 8px #000000;
+}
+#boxx{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color:#ffffff;
+    opacity:1;
+    box-shadow:3px 3px 6px #000000;
+    height:318px;
+    width:318px;
+    border:2px solid black;
+    transform:translate(5px,15px);
+}
+#boxx:hover{
+    box-shadow:6px 6px 10px #000000;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+h4{
+    background-color:rgb(44, 40, 40);
+    position:absolute;
+    top:30px; 
+    width:100px; 
+    text-align:center;
+    margin-top:10px; 
+    color:rgb(255,255,255); 
+    font-weight:bold;
+    transform:translateY(-30px);
+    box-shadow:3px 3px 6px rgb(0,0,0);
+}
+h4:hover{
+    box-shadow:6px 6px 10px #000000;
+}
+#bed{
+    position:absolute;
+    transform:translate(338px,-305px);
+}
+.bed1{
+    height:318px;
+    width:318px;
+    border:2px solid rgb(0,0,0);
+    box-shadow:3px 3px 8px #000000;
+}
+.bed1:hover{
+    box-shadow:6px 6px 10px #000000;
+}
+#bookyour{
+    transform:translate(110px,-30px);
+    width:100px;
+}
+#ambulance{
+    position:absolute;
+    transform:translate(670px,-305px);
+}
+.ambulance1{
+    height:318px;
+    width:318px;
+    border:2px solid rgb(0,0,0);
+    box-shadow:3px 3px 8px #000000;
+}
+.ambulance1:hover{
+    box-shadow:6px 6px 10px #000000;
+}
+#yourambulance{
+    transform:translate(113px,-30px);
+    width:100px;
+}
+#consult{
+    position:absolute;
+    transform:translate(1001px,-305px);
+}
+.consult1{
+    height:318px;
+    width:318px;
+    border:2px solid rgb(0,0,0);
+    box-shadow:3px 3px 8px #000000;
+}
+.consult1:hover{
+    box-shadow:6px 6px 10px #000000;
+}
+#yourconsult{
+    transform:translate(99px,-25px);
+    width:130px;
+}
+#facilities{
+    transform:translateY(-425px);
+    position:relative;
+    top: 450px;
+    text-align:center;
+    height:30px;
+    background-color:rgb(44, 40, 40);
+    box-shadow:3px 3px 5px rgb(0,0,0);
+}
+#facilities:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+b{
+    text-decoration:underline;
+}
+.foot-id{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+}
+#foot-id1{
+    transform:translateX(-15px);
+    margin-left:30px;
+    box-shadow:3px 3px 5px rgb(0,0,0);
+}
+#foot-id1:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-id2{
+    transform:translateX(-15px);
+    box-shadow:3px 3px 5px rgb(0,0,0);
+}
+#foot-id2:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-id3{
+    transform:translateX(-15px);
+    box-shadow:3px 3px 5px rgb(0,0,0);
+}
+#foot-id3:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-id4{
+    transform:translateX(-15px);
+    box-shadow:3px 3px 5px rgb(0,0,0);
+}
+#foot-id4:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-id5{
+    transform:translateX(-15px);
+    box-shadow:3px 3px 5px rgb(0,0,0);
+}
+#foot-id5:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:150px;
+    width:100%;
+    background-color:rgb(156, 149, 149);
+    justify-content:center;
+    box-shadow:3px 3px 6px rgb(0,0,0);
+}
+#foot:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-panel1{
+    width:130px;
+    height:100px;
+    margin-left:20px;
+    box-shadow:3px 3px 6px rgb(0,0,0);
+}
+#foot-panel1:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-panel2{
+    width:180px;
+    height:100px;
+    margin-left:20px;
+    box-shadow:3px 3px 6px rgb(0,0,0);
+}
+#foot-panel2:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-panel3{
+    width:140px;
+    height:100px;
+    margin-left:20px;
+    box-shadow:3px 3px 6px rgb(0,0,0);
+}
+#foot-panel3:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#foot-panel4{
+    width:130px;
+    height:100px;
+    margin-left:20px;
+    box-shadow:3px 3px 6px rgb(0,0,0);
+}
+#foot-panel4:hover{
+    box-shadow:6px 6px 8px rgb(0,0,0);
+}
+#follow{
+    font-size:20px;
+    text-align:center;
+    font-weight:bolder;
+    text-decoration: double underline white;
+}
+.img1{
+    box-shadow:3px 3px 5px rgb(8, 8, 236);
+}
+.img1:hover{
+    box-shadow:6px 6px 10px rgb(10, 26, 68);
+}
+.img2{
+    box-shadow:3px 3px 5px rgb(212, 210, 210);
+}
+.img2:hover{
+    box-shadow:6px 6px 10px rgb(255, 255, 255);
+}
+#image2{
+    padding-left:3px;
+}
+#image3{
+    padding-left:3px;
+}
